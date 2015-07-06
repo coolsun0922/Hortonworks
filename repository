@@ -1,1 +1,21 @@
 
+Version
+  Ambari-2.0.1.0
+  HDP-2.2.6
+  
+System requirements:
+  OS: CentOS6.6_x64 with ks.centos6.6_150706.cfg
+  
+RPMS
+  1. httpd
+
+Configure:
+  #wget -nv http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.0.1/ambari.repo
+  #wget -nv http://public-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.2.6.0/hdp.repo -O /etc/yum.repos.d/hdp.repo
+  #mkdir -p /var/www/html/ambari /var/www/html/hpd
+  #cd /var/www/html/ambari
+  #reposync -r Updates-ambari-2.0.1
+  #cd /var/www/html/hdp
+  #reposync -r HDP-2.2.6.0
+  #reposync -r HDP-UTILS-2.2.6.0
+  
