@@ -17,5 +17,23 @@ Configure:
   #reposync -r Updates-ambari-2.0.1
   #cd /var/www/html/hdp
   #reposync -r HDP-2.2.6.0
-  #reposync -r HDP-UTILS-2.2.6.0
+  #reposync -r HDP-UTILS-1.1.0.20
+
+//Optopn
+ Optional. If you have multiple repositories configured in your environment, deploy the following plug-in on all the nodes in your cluster.
+
+    Install the plug-in.
+
+        For RHEL and CentOS 6:
+
+        yum install yum-plugin-priorities
+
+    Edit the /etc/yum/pluginconf.d/priorities.conf file to add the following:
+
+    [main]
+
+    enabled=1
+
+    gpgcheck=0
+  
   
