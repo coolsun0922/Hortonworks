@@ -1,3 +1,4 @@
+#/etc/yum.repos.d/
 #VERSION_NUMBER=2.2.6.0-2800
 [HDP-2.2.6.0]
 name=HDP Version - HDP-2.2.6.0
