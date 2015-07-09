@@ -1,0 +1,8 @@
+Document Link: http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.2.6/bk_installing_manually_book/content/ch_install_ganglia_chapter.html
+
+#yum install ganglia-gmond-3.5.0-99 
+#mkdir -p /usr/libexec/hdp/ganglia
+#chmod a+x  /usr/libexec/hdp/ganglia/setupGanglia.sh  /usr/libexec/hdp/ganglia/startRrdcached.sh
+#chown -R nobody:nobody /usr/libexec/hdp
+#chmod -R 755 /usr/libexec/hdp
+
